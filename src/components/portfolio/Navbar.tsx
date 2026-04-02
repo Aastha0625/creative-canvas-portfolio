@@ -35,7 +35,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <a href="#" className="font-display text-2xl font-bold">
-            <span className="text-gradient">Port</span>folio
+            <span className="text-gradient">Aastha's</span> Portfolio
           </a>
 
           {/* Desktop Links */}

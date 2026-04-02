@@ -50,7 +50,7 @@ const Contact = () => {
                 <div>
                   <p className="text-sm text-muted-foreground">Email</p>
                   <a href="mailto:hello@example.com" className="font-medium hover:text-gradient transition-all">
-                    hello@example.com
+                    aasthaasati06@gmail.com
                   </a>
                 </div>
               </motion.div>

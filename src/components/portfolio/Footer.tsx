@@ -5,9 +5,9 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: Github, href: "#", label: "GitHub" },
+    { icon: Github, href: "https://github.com/Aastha0625", label: "GitHub" },
     { icon: Linkedin, href: "#", label: "LinkedIn" },
-    { icon: Twitter, href: "#", label: "Twitter" },
+    
   ];
 
   return (
@@ -20,7 +20,7 @@ const Footer = () => {
               <span className="text-gradient">Port</span>folio
             </a>
             <p className="text-muted-foreground text-sm flex items-center gap-1 justify-center md:justify-start">
-              © {currentYear} • Made with <Heart className="w-4 h-4 text-foreground fill-current" /> 
+              © {currentYear}
             </p>
           </div>
 

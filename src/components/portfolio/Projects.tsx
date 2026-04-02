@@ -4,36 +4,36 @@ import { ExternalLink, Github, ArrowUpRight } from "lucide-react";
 
 const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "A full-featured online store with cart, payments, and admin dashboard. Built with React, TypeScript, and modern UI components.",
-    tags: ["React", "TypeScript", "Tailwind", "Stripe"],
-    image: "/placeholder.svg",
-    liveUrl: "#",
-    githubUrl: "#",
+    title: "Food Delivery Platform",
+    description: "A full-featured online food ordering platform with cart, payments, and admin dashboard. Built with React, TypeScript, and modern UI components.",
+    tags: ["React", "JavaScript", "Tailwind", "NodeJs"],
+    image: "/WhatsApp Image 2026-01-12 at 3.15.40 PM.jpeg",
+    liveUrl: "https://food-delivery-frontend-6uso.onrender.com/",
+    githubUrl: "https://github.com/Aastha0625/Food-delivery-application",
     featured: true,
   },
   {
-    title: "Dashboard Analytics",
-    description: "Real-time data visualization dashboard with interactive charts and responsive design.",
-    tags: ["React", "D3.js", "WebSocket", "Node.js"],
-    image: "/placeholder.svg",
-    liveUrl: "#",
-    githubUrl: "#",
+    title: "Quick Blog AI",
+    description: "AI-powered blogging application designed to make content creation effortless and engaging, with a modern, responsive interface and seamless integration of AI tools.",
+    tags: ["React.js", "Tailwind CSS", "Node.js","JavaScript","MongoDB"],
+    image: "/WhatsApp Image 2026-01-12 at 3.15.41 PM.jpeg",
+    liveUrl: "https://quick-blog-sigma-five.vercel.app/",
+    githubUrl: "https://github.com/Aastha0625/QuickBlog",
     featured: true,
   },
   {
-    title: "AI Chat Interface",
-    description: "Modern chat application with AI integration, featuring real-time messaging and sleek animations.",
-    tags: ["Next.js", "OpenAI", "Framer Motion"],
+    title: "",
+    description: "",
+    tags: [""],
     image: "/placeholder.svg",
     liveUrl: "#",
     githubUrl: "#",
     featured: false,
   },
   {
-    title: "Portfolio Template",
-    description: "Customizable portfolio template with dark mode, animations, and CMS integration.",
-    tags: ["React", "GSAP", "Sanity CMS"],
+    title: "",
+    description: "",
+    tags: [""],
     image: "/placeholder.svg",
     liveUrl: "#",
     githubUrl: "#",
@@ -75,16 +75,14 @@ const Projects = () => {
               {/* Project Image */}
               <div className="relative aspect-video overflow-hidden bg-muted/20">
                 <div className="absolute inset-0 bg-gradient-to-t from-card to-transparent z-10" />
-                <motion.div
-                  whileHover={{ scale: 1.05 }}
-                  transition={{ duration: 0.6 }}
-                  className="w-full h-full bg-muted/10 flex items-center justify-center"
-                >
-                  <span className="font-display text-6xl text-muted-foreground/20">
-                    {String(index + 1).padStart(2, '0')}
-                  </span>
-                </motion.div>
-                
+                    <motion.img
+                    src={project.image}
+                    alt={project.title}
+                    whileHover={{ scale: 1.05 }}
+                    transition={{ duration: 0.6 }}
+                    className="w-full h-full object-cover"
+                  />
+
                 {/* Hover overlay */}
                 <motion.div
                   initial={{ opacity: 0 }}

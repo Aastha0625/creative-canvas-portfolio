@@ -15,8 +15,8 @@ const skills = [
 const technologies = [
   "React", "TypeScript", "JavaScript", "HTML5", "CSS3", 
   "Tailwind CSS", "Next.js", "Node.js", "Express", "MongoDB",
-  "PostgreSQL", "GraphQL", "REST APIs", "Git", "GitHub",
-  "Figma", "Adobe XD", "Framer Motion", "GSAP", "Three.js"
+  "PostgreSQL", "REST APIs", "Git", "GitHub",
+  "Figma","AI/ML"
 ];
 
 const Skills = () => {

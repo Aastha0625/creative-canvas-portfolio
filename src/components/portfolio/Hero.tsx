@@ -34,7 +34,7 @@ const Hero = () => {
             transition={{ delay: 0.2 }}
             className="text-muted-foreground text-lg md:text-xl mb-4 tracking-widest uppercase"
           >
-            Hello, I'm
+           Aastha Asati
           </motion.p>
 
           {/* Name */}
@@ -44,7 +44,7 @@ const Hero = () => {
             transition={{ delay: 0.3, duration: 0.8 }}
             className="font-display text-6xl md:text-8xl lg:text-9xl font-bold mb-6 glow-text"
           >
-            <span className="text-gradient">Creative</span>
+            <span className="text-gradient">Software</span>
             <br />
             <span className="text-foreground">Developer</span>
           </motion.h1>
@@ -69,9 +69,9 @@ const Hero = () => {
             className="flex items-center justify-center gap-6 mb-16"
           >
             {[
-              { icon: Github, href: "#", label: "GitHub" },
-              { icon: Linkedin, href: "#", label: "LinkedIn" },
-              { icon: Mail, href: "#contact", label: "Email" },
+              { icon: Github, href: "https://github.com/Aastha0625", label: "GitHub" },
+              { icon: Linkedin, href: "", label: "LinkedIn" },
+              { icon: Mail, href: "aasthaasati06@gmail.com", label: "Email" },
             ].map((social, index) => (
               <motion.a
                 key={social.label}
@@ -98,7 +98,7 @@ const Hero = () => {
               transition={{ duration: 2, repeat: Infinity }}
               className="flex flex-col items-center gap-2 text-muted-foreground"
             >
-              <span className="text-sm tracking-wider uppercase">Scroll</span>
+              <span className="text-sm tracking-wider uppercase"></span>
               <ArrowDown className="w-5 h-5" />
             </motion.div>
           </motion.div>
